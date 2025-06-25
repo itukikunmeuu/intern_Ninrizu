@@ -363,6 +363,8 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2023.1.2f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/script/Carrot.cs"
 "Assets/script/CarrotManager.cs"
+"Assets/script/GManager.cs"
+"Assets/script/Judge.cs"
 "Assets/script/MeshCutter.cs"
 -langversion:9.0
 

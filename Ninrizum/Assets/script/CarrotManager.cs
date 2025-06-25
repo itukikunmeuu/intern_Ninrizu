@@ -27,6 +27,7 @@ public class CarrotManager : MonoBehaviour
     public int noteNum;
     private string songName;
 
+
     public List<int> LaneNum = new List<int>();
     public List<int> NoteType = new List<int>();
     public List<float> NotesTime = new List<float>();
@@ -34,7 +35,6 @@ public class CarrotManager : MonoBehaviour
 
     [SerializeField] private float NotesSpeed;
     [SerializeField] GameObject noteObj;
-
     void OnEnable()
     {
         noteNum = 0;
@@ -48,6 +48,8 @@ public class CarrotManager : MonoBehaviour
         Data inputJson = JsonUtility.FromJson<Data>(inputString);
 
         noteNum = inputJson.notes.Length;
+        GManager.instance.maxScore = noteNum * 5;
+
 
         for (int i = 0; i < inputJson.notes.Length; i++)
         {

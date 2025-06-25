@@ -61,6 +61,8 @@
     <Compile Include="Assets\script\CarrotManager.cs" />
     <Compile Include="Assets\script\Carrot.cs" />
     <Compile Include="Assets\script\MeshCutter.cs" />
+    <Compile Include="Assets\script\GManager.cs" />
+    <Compile Include="Assets\script\Judge.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
