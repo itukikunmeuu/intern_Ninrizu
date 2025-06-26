@@ -3,27 +3,35 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\GitHub\\intern_Ninrizu\\Ninrizum\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{745111ED-10CC-E81C-C600-4EB60A3B4314}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\github\\intern_ninrizu\\ninrizum\\assets\\script\\judge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{745111ED-10CC-E81C-C600-4EB60A3B4314}|Assembly-CSharp.csproj|C:\\Users\\User\\Documents\\GitHub\\intern_Ninrizu\\Ninrizum\\assets\\script\\meshcutter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{745111ED-10CC-E81C-C600-4EB60A3B4314}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\meshcutter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{745111ED-10CC-E81C-C600-4EB60A3B4314}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\github\\intern_ninrizu\\ninrizum\\assets\\ezy-slice-master\\ezyslice\\slicer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{745111ED-10CC-E81C-C600-4EB60A3B4314}|Assembly-CSharp.csproj|solutionrelative:assets\\ezy-slice-master\\ezyslice\\slicer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{745111ED-10CC-E81C-C600-4EB60A3B4314}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\github\\intern_ninrizu\\ninrizum\\assets\\script\\meshcuttercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{745111ED-10CC-E81C-C600-4EB60A3B4314}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\meshcuttercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{745111ED-10CC-E81C-C600-4EB60A3B4314}|Assembly-CSharp.csproj|C:\\Users\\User\\Documents\\GitHub\\intern_Ninrizu\\Ninrizum\\assets\\script\\judge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{745111ED-10CC-E81C-C600-4EB60A3B4314}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\judge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\UnityRhythmGame\\Assets\\Script\\MainScene\\Judge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{745111ED-10CC-E81C-C600-4EB60A3B4314}|Assembly-CSharp.csproj|C:\\Users\\User\\Documents\\GitHub\\intern_Ninrizu\\Ninrizum\\assets\\script\\gmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{745111ED-10CC-E81C-C600-4EB60A3B4314}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{745111ED-10CC-E81C-C600-4EB60A3B4314}|Assembly-CSharp.csproj|C:\\Users\\User\\Documents\\GitHub\\intern_Ninrizu\\Ninrizum\\assets\\script\\carrotmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{745111ED-10CC-E81C-C600-4EB60A3B4314}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\carrotmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{745111ED-10CC-E81C-C600-4EB60A3B4314}|Assembly-CSharp.csproj|c:\\users\\user\\documents\\github\\intern_ninrizu\\ninrizum\\assets\\script\\meshcutter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{745111ED-10CC-E81C-C600-4EB60A3B4314}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\meshcutter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\UnityRhythmGame\\Assets\\Script\\MainScene\\NotesManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{745111ED-10CC-E81C-C600-4EB60A3B4314}|Assembly-CSharp.csproj|C:\\Users\\User\\Documents\\GitHub\\intern_Ninrizu\\Ninrizum\\assets\\script\\carrot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{745111ED-10CC-E81C-C600-4EB60A3B4314}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\carrot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Documents\\GitHub\\intern_Ninrizu\\Ninrizum\\Assets\\script\\NinjinManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\script\\NinjinManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,37 +41,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 196,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "Slicer.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\intern_Ninrizu\\Ninrizum\\Assets\\ezy-slice-master\\EzySlice\\Slicer.cs",
+              "RelativeDocumentMoniker": "Assets\\ezy-slice-master\\EzySlice\\Slicer.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\intern_Ninrizu\\Ninrizum\\Assets\\ezy-slice-master\\EzySlice\\Slicer.cs",
+              "RelativeToolTip": "Assets\\ezy-slice-master\\EzySlice\\Slicer.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T02:57:26.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MeshCutterController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\intern_Ninrizu\\Ninrizum\\Assets\\script\\MeshCutterController.cs",
+              "RelativeDocumentMoniker": "Assets\\script\\MeshCutterController.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\intern_Ninrizu\\Ninrizum\\Assets\\script\\MeshCutterController.cs",
+              "RelativeToolTip": "Assets\\script\\MeshCutterController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T02:56:24.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GManager.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\intern_Ninrizu\\Ninrizum\\Assets\\script\\GManager.cs",
+              "RelativeDocumentMoniker": "Assets\\script\\GManager.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\intern_Ninrizu\\Ninrizum\\Assets\\script\\GManager.cs",
+              "RelativeToolTip": "Assets\\script\\GManager.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T08:31:13.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Judge.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\intern_Ninrizu\\Ninrizum\\Assets\\script\\Judge.cs",
               "RelativeDocumentMoniker": "Assets\\script\\Judge.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\intern_Ninrizu\\Ninrizum\\Assets\\script\\Judge.cs",
               "RelativeToolTip": "Assets\\script\\Judge.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAqwJwAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAowBIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-25T08:30:03.945Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "MeshCutter.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\intern_Ninrizu\\Ninrizum\\Assets\\script\\MeshCutter.cs",
               "RelativeDocumentMoniker": "Assets\\script\\MeshCutter.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\intern_Ninrizu\\Ninrizum\\Assets\\script\\MeshCutter.cs",
               "RelativeToolTip": "Assets\\script\\MeshCutter.cs",
-              "ViewState": "AgIAAIgAAAAAAAAAAAAAAKwAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAIwCAAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-25T07:01:41.932Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Carrot.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\intern_Ninrizu\\Ninrizum\\Assets\\script\\Carrot.cs",
               "RelativeDocumentMoniker": "Assets\\script\\Carrot.cs",
@@ -75,27 +122,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "CarrotManager.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\intern_Ninrizu\\Ninrizum\\Assets\\script\\CarrotManager.cs",
               "RelativeDocumentMoniker": "Assets\\script\\CarrotManager.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\intern_Ninrizu\\Ninrizum\\Assets\\script\\CarrotManager.cs",
               "RelativeToolTip": "Assets\\script\\CarrotManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAqwCgAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-25T04:53:31.023Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "NinjinManager.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\intern_Ninrizu\\Ninrizum\\Assets\\script\\NinjinManager.cs",
-              "RelativeDocumentMoniker": "Assets\\script\\NinjinManager.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\intern_Ninrizu\\Ninrizum\\Assets\\script\\NinjinManager.cs",
-              "RelativeToolTip": "Assets\\script\\NinjinManager.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T04:53:05.87Z"
             }
           ]
         },
@@ -105,15 +141,15 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Judge.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\UnityRhythmGame\\Assets\\Script\\MainScene\\Judge.cs",
-              "RelativeDocumentMoniker": "..\\..\\UnityRhythmGame\\Assets\\Script\\MainScene\\Judge.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\UnityRhythmGame\\Assets\\Script\\MainScene\\Judge.cs",
-              "RelativeToolTip": "..\\..\\UnityRhythmGame\\Assets\\Script\\MainScene\\Judge.cs",
-              "ViewState": "AgIAAIgAAAAAAAAAAAAAAKwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "NotesManager.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\UnityRhythmGame\\Assets\\Script\\MainScene\\NotesManager.cs",
+              "RelativeDocumentMoniker": "..\\..\\UnityRhythmGame\\Assets\\Script\\MainScene\\NotesManager.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\UnityRhythmGame\\Assets\\Script\\MainScene\\NotesManager.cs",
+              "RelativeToolTip": "..\\..\\UnityRhythmGame\\Assets\\Script\\MainScene\\NotesManager.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAIwC0AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T08:30:44.075Z",
+              "WhenOpened": "2025-06-25T08:37:48.915Z",
               "EditorCaption": ""
             },
             {

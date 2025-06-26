@@ -48,7 +48,7 @@ public class CarrotManager : MonoBehaviour
         Data inputJson = JsonUtility.FromJson<Data>(inputString);
 
         noteNum = inputJson.notes.Length;
-        GManager.instance.maxScore = noteNum * 5;
+        //GManager.instance.maxScore = noteNum * 5;
 
 
         for (int i = 0; i < inputJson.notes.Length; i++)
