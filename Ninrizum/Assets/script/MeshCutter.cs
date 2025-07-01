@@ -14,6 +14,7 @@ public class MeshCutter : MonoBehaviour
         Vector3 cutPosition = carrot.transform.position;
         Vector3 cutNormal = Vector3.right; // 縦切り（X軸方向）
 
+        // EzySliceでスライス
         GameObject[] result = carrot.SliceInstantiate(cutPosition, cutNormal, cutMaterial);
 
         if (result != null && result.Length == 2)
@@ -27,23 +28,31 @@ public class MeshCutter : MonoBehaviour
             for (int i = 0; i < 2; i++)
             {
                 var go = result[i];
+
+                // 元のにんじんの位置・回転・スケールを引き継ぐ
                 go.transform.position = carrot.transform.position + (i == 0 ? cutNormal : -cutNormal) * separateDistance;
                 go.transform.rotation = carrot.transform.rotation;
                 go.transform.localScale = carrot.transform.localScale;
 
+                // Rigidbody追加で物理挙動
                 var rb = go.GetComponent<Rigidbody>();
                 if (rb == null)
                 {
                     rb = go.AddComponent<Rigidbody>();
                 }
+
+                // ColliderがなければMeshColliderを追加
                 if (go.GetComponent<Collider>() == null)
                 {
-                    go.AddComponent<MeshCollider>().convex = true;
+                    var meshCol = go.AddComponent<MeshCollider>();
+                    meshCol.convex = true;
                 }
 
                 // 斜め前下方向に力を加える
                 rb.AddForce(directions[i] * forcePower, ForceMode.Impulse);
             }
+
+            // 元のにんじんを削除
             Destroy(carrot);
         }
     }

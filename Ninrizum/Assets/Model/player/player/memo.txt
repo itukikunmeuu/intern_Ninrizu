@@ -1,0 +1,11 @@
+※モデルについてる
+Barbarian_Round_Shield
+1H_Axe_Offhand
+Mug
+を外すとよい感じになるかと思われる
+
+・カットアニメーション
+1H_Melee_Attack_Chop
+
+・喜んでるアニメーション
+Cheer

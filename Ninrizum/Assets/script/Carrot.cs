@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Carrot : MonoBehaviour
 {
-    //ノーツのスピードを設定
     float NoteSpeed = 8;
     bool start;
 
@@ -20,8 +19,8 @@ public class Carrot : MonoBehaviour
         }
         if (start)
         {
-            transform.position += transform.right * Time.deltaTime * NoteSpeed;
+            // ワールド座標のx軸方向に移動
+            transform.position += Vector3.right * NoteSpeed * Time.deltaTime;
         }
     }
-    
 }
