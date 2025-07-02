@@ -61,7 +61,7 @@ public class CarrotManager : MonoBehaviour
             // 横から流す: x座標を進行方向、z座標をレーン位置に
             float x = -NotesTime[i] * NotesSpeed; // 左から右へ流す場合
             float z = inputJson.notes[i].block - 1.5f; // レーン位置
-            Quaternion rot = Quaternion.Euler(90f, -90f, 0f); // X:90°, Y:-90°, Z:0°
+            Quaternion rot = Quaternion.Euler(0f, -90f, 0f); // X:90°, Y:-90°, Z:0°
             NotesObj.Add(Instantiate(noteObj, new Vector3(x, 0.55f, z), rot));
         }
     }

@@ -4,20 +4,34 @@ using TMPro;
 using UnityEngine.SceneManagement;
 public class Judge : MonoBehaviour
 {
-    [SerializeField] CarrotManager carrotManager; // CarrotManager参照
-    [SerializeField] Transform judgeLine;         // 判定ライン
-    [SerializeField] MeshCutter meshCutter;       // MeshCutter参照
-    [SerializeField] float judgeRange = 0.5f;     // 判定許容範囲
-    [SerializeField] float endTime = 0;           // ゲーム終了時間
-    [SerializeField] TextMeshProUGUI comboText;   // コンボ表示用（Inspectorでセット）
+    [SerializeField] CarrotManager carrotManager;
+    [SerializeField] Transform judgeLine;
+    [SerializeField] MeshCutter meshCutter;
+    [SerializeField] float judgeRange = 0.5f;
+    [SerializeField] float endTime = 0;
+    [SerializeField] TextMeshProUGUI comboText;
+
+    [SerializeField] AudioClip cutSE; // 効果音（Inspectorでセット）
+    private AudioSource audioSource;
 
     private int combo = 0;
+
+    void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource == null)
+        {
+            audioSource = gameObject.AddComponent<AudioSource>();
+        }
+    }
 
     void Update()
     {
         // カット判定
         if (Input.GetKeyDown(KeyCode.Space))
         {
+         
+
             GameObject nearest = null;
             float minDist = judgeRange;
 
@@ -34,7 +48,6 @@ public class Judge : MonoBehaviour
 
             if (nearest != null)
             {
-                // カット成功
                 meshCutter.CutCarrot(nearest);
                 carrotManager.NotesObj.Remove(nearest);
                 combo++;
@@ -42,25 +55,24 @@ public class Judge : MonoBehaviour
             }
             else
             {
-                // カットミス
                 combo = 0;
                 if (comboText != null) comboText.text = combo.ToString();
             }
+            // 効果音を再生
+            if (cutSE != null)
+            {
+                audioSource.PlayOneShot(cutSE);
+            }
         }
 
-        // ノーツが判定ラインを通過したのにカットされなかった場合（ミス判定）
-        // 例: 一番左のノーツが判定ラインを過ぎていたらミス
         if (carrotManager.NotesObj.Count > 0)
         {
             GameObject first = carrotManager.NotesObj[0];
             if (first != null && first.transform.position.x > judgeLine.position.x + judgeRange)
             {
-                // ミスとしてコンボリセット
                 combo = 0;
                 if (comboText != null) comboText.text = combo.ToString();
-                // ノーツをリストから削除（必要に応じてDestroyも）
                 carrotManager.NotesObj.RemoveAt(0);
-           
             }
         }
 
